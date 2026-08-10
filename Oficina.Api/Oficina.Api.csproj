@@ -11,4 +11,8 @@
     <PackageReference Include="Microsoft.OpenApi" Version="3.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Oficina.Infra.Ioc\Oficina.Infra.Ioc.csproj" />
+  </ItemGroup>
+
 </Project>
