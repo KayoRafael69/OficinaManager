@@ -8,6 +8,7 @@ namespace Oficina.Infra.Data.Repositories
 {
     public class ClienteRepository : RepositoryBase<Cliente>, IClienteRepository
     {
+        private readonly OficinaDbContext _context;
         public ClienteRepository(OficinaDbContext context) : base(context)
         {
         }

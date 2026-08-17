@@ -21,8 +21,6 @@ namespace Oficina.Domain.Entities
 
         public List<PecaOrdemServico> Pecas { get; set; } = new List<PecaOrdemServico>();
 
-        public FormaDePagamento? FormaPagamemento { get; set; }
-
         public decimal ValorPecas => Pecas.Sum(p => p.ValorTotal);
         public decimal ValorTotal => ValorMaoDeObra + ValorPecas;
     }
