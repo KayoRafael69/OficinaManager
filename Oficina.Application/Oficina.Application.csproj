@@ -7,4 +7,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\Oficina.Domain\Oficina.Domain.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Services\" />
+	</ItemGroup>
 </Project>
